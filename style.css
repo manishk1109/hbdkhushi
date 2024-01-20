@@ -216,7 +216,7 @@ body {
     
 
 
-.imageFront, .imageFront1, .imageBack {
+.imageFront, .imageFront1, {
     height: 100%;
     width: 100%;
     display: flex;
@@ -247,21 +247,12 @@ body {
    
 }
 
-.imageBack{
-    background-color: transparent;
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-    border: 3px solid rgb(175, 167, 167);
-   border-radius: 15px;
-    
-}
 
 
 
 
-.imageContainer:hover {
-   transform: rotateY(180deg);
-}
+
+
 
 
 
